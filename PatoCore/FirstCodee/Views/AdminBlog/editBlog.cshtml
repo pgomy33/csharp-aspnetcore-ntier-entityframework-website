@@ -1,0 +1,84 @@
+﻿@model EntityLayer.Concrete.ViewModels.BlogViewModel
+@{
+    ViewData["Title"] = "editBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="row">
+        <div class="col-lg-8 mb-4 order-0 mx-auto">
+            <div class="card">
+                <div class="d-flex align-items-end row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Blog Düzenleme Sayfası 🎉</h5>
+                            <p class="mb-4">
+
+                            </p>
+                            <form asp-action="editBlog" asp-controller="AdminBlog" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <input asp-for="Blog.ID" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp" hidden>
+                                    <input asp-for="Blog.DateTimeWrite" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp" hidden>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Blog Başlık</label>
+                                    <input asp-for="Blog.Title" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Blog.Title)
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label>Category</label>
+                                    <select asp-for="Blog.BlogCategoryId" class="form-control">
+                                        @foreach (var category in Model.BlogCategories)
+                                        {
+                                            <option value="@category.ID">@category.Title</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="stateSelect" class="form-label">Durum</label>
+                                    <select asp-for="Blog.State" class="form-select">
+                                        <option value="true">Aktif</option>
+                                        <option value="false">Pasif</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="example-text-input" class="form-control-label">Resim</label>
+                                    <input asp-for="Blog.BlogImage" class="form-control" type="text" readonly>
+                                    <input asp-for="Blog.Image" class="form-control" type="file">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Kısa Açıklama</label>
+                                    <textarea rows="10" cols="50" asp-for="Blog.ShortDescription" class="form-control" type="text"></textarea>
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Blog.ShortDescription)
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Blog Açıklama</label>
+                                    <textarea id="aboutDesc" rows="10" cols="50" asp-for="Blog.Description" class="form-control" type="text"></textarea>
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Blog.Description)
+                                    </div>
+                                </div>
+
+
+
+                                <button type="submit" class="btn btn-primary">Bilgileri Kaydet</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

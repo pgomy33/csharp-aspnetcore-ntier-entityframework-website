@@ -1,0 +1,57 @@
+﻿@model EntityLayer.Concrete.Repeat2
+@{
+    ViewData["Title"] = "addRepeat";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="row">
+        <div class="col-lg-8 mb-4 order-0 mx-auto">
+            <div class="card">
+                <div class="d-flex align-items-end row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Repeat 2 Ekleme Sayfası 🎉</h5>
+                            <p class="mb-4">
+
+                            </p>
+                            <form asp-action="addRepeat" asp-controller="AdminRepeat2" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Repeat2 Başlık</label>
+                                    <input asp-for="Title" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Title)
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="example-text-input" class="form-control-label">Resim</label>
+                                    <input asp-for="Repeat2Image" class="form-control" type="text" readonly>
+                                    <input asp-for="Image" class="form-control" type="file">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Repeat1 Açıklama</label>
+                                    <textarea id="aboutDesc" rows="10" cols="50" asp-for="Description" class="form-control" type="text"></textarea>
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Description)
+                                    </div>
+                                </div>
+
+
+
+                                <button type="submit" class="btn btn-primary">Bilgileri Kaydet</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

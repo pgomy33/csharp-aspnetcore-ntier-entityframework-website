@@ -1,0 +1,73 @@
+﻿@using EntityLayer.Concrete
+@model List<GalleryCategory>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="row">
+        <div class="col-lg-10 mb-4 order-0 mx-auto">
+            <div class="card">
+                <div class="d-flex align-items-end row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-header">Galeri Kategori Listesi</h5>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                    <a href="/AdminGalleryCategory/add/" class="btn btn-primary">
+                                        + Yeni Kategori Ekle
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="table-responsive text-nowrap" style="height:75vh">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Galeri Kategori Başlığı</th>
+                                            <th>Durum</th>
+                                            <th class="text-end">İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-border-bottom-0">
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.Title</strong></td>
+
+                                                @if (item.State == true)
+                                                {
+                                                    <td><span class="badge bg-label-primary me-1">Aktif</span></td>
+                                                }
+                                                else if (item.State == false)
+                                                {
+                                                    <td><span class="badge bg-label-danger me-1">Pasif</span></td>
+                                                }
+                                                <td>
+                                                    <div class="dropdown text-end">
+                                                        <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                            <i class="bx bx-dots-vertical-rounded"></i>
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="/AdminGalleryCategory/update/@item.ID"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
+                                                            <a class="dropdown-item" href="/AdminGalleryCategory/delete/@item.ID"><i class="bx bx-trash me-1"></i> Sil</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

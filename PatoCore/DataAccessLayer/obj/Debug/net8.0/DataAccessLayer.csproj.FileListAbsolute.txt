@@ -1,0 +1,34 @@
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\emreb\source\repos\FirstCodee\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

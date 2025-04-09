@@ -1,0 +1,104 @@
+﻿@using EntityLayer.Concrete.ViewModels
+@model GalleryViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/pato-master/images/bg-title-page-02.jpg);">
+    <h2 class="tit6 t-center">
+        Gallery
+    </h2>
+</section>
+
+
+
+<!-- Gallery -->
+<div class="section-gallery p-t-118 p-b-100">
+    <div class="wrap-label-gallery filter-tope-group size27 flex-w flex-sb-m m-l-r-auto flex-col-c-sm p-l-15 p-r-15 m-b-60">
+
+        @foreach (var category in Model.Categories)
+        {
+            if(category.ID == 1)
+            {
+                <button class="filter-btn label-gallery txt26 trans-0-4 is-actived active" data-category="@category.ID">
+                    @category.Title
+                </button>
+            }
+            else
+            {
+                <button class="filter-btn label-gallery txt26 trans-0-4" data-category="@category.ID">
+                    @category.Title
+                </button>
+            }
+           
+        }
+    </div>
+
+    <div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25">
+
+       
+
+
+    </div>
+
+    <div class="pagination flex-c-m flex-w p-l-15 p-r-15 m-t-24 m-b-50">
+        <a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
+        <a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
+        <a href="#" class="item-pagination flex-c-m trans-0-4">3</a>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Sayfa açıldığında tüm resimleri yükle
+        loadImages(null);
+
+        // Kategori butonlarına tıklanınca resimleri filtrele
+        $(".filter-btn").click(function () {
+            $(".filter-btn").removeClass("active");
+            $(this).addClass("active");
+
+            var GalleryCategoryId = $(this).data("category");
+            console.log(GalleryCategoryId);
+            // Resimleri yükle
+            loadImages(GalleryCategoryId);
+        });
+
+        // AJAX ile resimleri çeken fonksiyon
+        function loadImages(GalleryCategoryId) {
+            $.ajax({
+                url: '/Gallery/GetImagesByCategory',
+                type: 'GET',
+                data: GalleryCategoryId ? { GalleryCategoryId: GalleryCategoryId } : {},
+                success: function (data) {
+                    console.log("Gelen veri:", data, "Kategori ID:", GalleryCategoryId);
+                    $(".wrap-gallery").empty();
+                    data.forEach(image => {
+                        $(".wrap-gallery").append(`
+                        <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+                            <img src="/img/${image.galleryImage}" alt="IMG-GALLERY">
+                            <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                                <a class="btn-show-gallery flex-c-m fa fa-search" href="/img/${image.galleryImage}" data-lightbox="gallery"></a>
+                            </div>
+                        </div>
+                    `);
+                    });
+
+                    // Eğer Isotope.js kullanılıyorsa, öğeleri yeniden düzenle
+                    if ($(".wrap-gallery").data('isotope')) {
+                        $(".wrap-gallery").isotope('reloadItems').isotope();
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("Hata:", error);
+                }
+            });
+        }
+    });
+    
+</script>

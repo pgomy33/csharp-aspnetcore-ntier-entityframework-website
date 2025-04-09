@@ -1,0 +1,54 @@
+﻿@model EntityLayer.Concrete.ViewModels.MenuItemViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/pato-master/images/bg-title-page-01.jpg);">
+	<h2 class="tit6 t-center">
+		Pato Menu
+	</h2>
+</section>
+
+
+<!-- Main menu -->
+<section class="section-mainmenu p-t-110 p-b-70 bg1-pattern">
+	<div class="container">
+		<div class="row">
+	
+			@foreach (var item in Model.Categories)
+			{
+				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							@item.Title
+						</h3>
+						@foreach (var x in Model.MenuList.Where(m=>m.CategoryId == item.ID))
+						{
+							<!-- Item mainmenu -->
+							<div class="item-mainmenu m-b-36">
+								<div class="flex-w flex-b m-b-3">
+									<a href="#" class="name-item-mainmenu txt21">
+										@x.Title
+									</a>
+
+									<div class="line-item-mainmenu bg3-pattern"></div>
+
+									<div class="price-item-mainmenu txt22">
+										$29.79
+									</div>
+								</div>
+
+								<span class="info-item-mainmenu txt23">
+									@Html.Raw(x.Description)
+								</span>
+							</div>
+						}
+					</div>
+				</div>
+			}
+
+		</div>
+	</div>
+</section>

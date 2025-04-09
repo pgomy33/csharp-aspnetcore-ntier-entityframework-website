@@ -1,0 +1,68 @@
+﻿@model EntityLayer.Concrete.ViewModels.GalleryViewModel
+@{
+    ViewData["Title"] = "editGallery";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="row">
+        <div class="col-lg-8 mb-4 order-0 mx-auto">
+            <div class="card">
+                <div class="d-flex align-items-end row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Resim Düzenleme Sayfası 🎉</h5>
+                            <p class="mb-4">
+
+                            </p>
+                            <form asp-action="editGallery" asp-controller="AdminGallery" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <input asp-for="Gallery.ID" hidden type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Resim Başlık</label>
+                                    <input asp-for="Gallery.Title" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Gallery.Title)
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label>Category</label>
+                                    <select asp-for="Gallery.CategoryId" class="form-control">
+                                        @foreach (var category in Model.Categories)
+                                        {
+                                            <option value="@category.ID">@category.Title</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="example-text-input" class="form-control-label">Resim</label>
+                                    <input asp-for="Gallery.GalleryImage" class="form-control" type="text" readonly>
+                                    <input asp-for="Gallery.Image" class="form-control" type="file">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="stateSelect" class="form-label">Durum</label>
+                                    <select asp-for="Gallery.State" class="form-select">
+                                        <option value="true">Aktif</option>
+                                        <option value="false">Pasif</option>
+                                    </select>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Bilgileri Kaydet</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

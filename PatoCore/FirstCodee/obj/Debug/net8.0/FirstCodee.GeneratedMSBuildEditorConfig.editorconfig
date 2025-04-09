@@ -1,0 +1,267 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FirstCodee
+build_property.RootNamespace = FirstCodee
+build_property.ProjectDir = C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\FirstCodee\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\FirstCodee
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminAddress/editAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BZGRyZXNzXGVkaXRBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlogCategory/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nQ2F0ZWdvcnlcYWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlogCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlogCategory/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nQ2F0ZWdvcnlcdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlog/addBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXGFkZEJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlog/editBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXGVkaXRCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminCategory/addCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxhZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminCategory/editCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxlZGl0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGalleryCategory/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5Q2F0ZWdvcnlcYWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGalleryCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5Q2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGalleryCategory/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5Q2F0ZWdvcnlcdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGallery/addGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XGFkZEdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGallery/editGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XGVkaXRHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminGallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminMenuCategory/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51Q2F0ZWdvcnlcYWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminMenuCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51Q2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRCapacity/addRCapacity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SQ2FwYWNpdHlcYWRkUkNhcGFjaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRCapacity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SQ2FwYWNpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRCapacity/updateRCapacity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SQ2FwYWNpdHlcdXBkYXRlUkNhcGFjaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat1/addRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQxXGFkZFJlcGVhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat1/editRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQxXGVkaXRSZXBlYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat2/addRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQyXGFkZFJlcGVhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat2/editRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQyXGVkaXRSZXBlYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat3/addRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQzXGFkZFJlcGVhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat3/editRepeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQzXGVkaXRSZXBlYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRepeat3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXBlYXQzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminReservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRHour/addRHour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SSG91clxhZGRSSG91ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRHour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SSG91clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminRHour/updateRHour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SSG91clx1cGRhdGVSSG91ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSlider/addSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TbGlkZXJcYWRkU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSlider/editSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TbGlkZXJcZWRpdFNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TbGlkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSSS/addSSS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TU1NcYWRkU1NTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSSS/editSSS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TU1NcZWRpdFNTUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/AdminSSS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TU1NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Blog/detailsBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xkZXRhaWxzQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/RCapacity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUkNhcGFjaXR5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Reservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/Components/AboutList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/Components/ReservationList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVzZXJ2YXRpb25MaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/Components/SliderList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyTGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emreb/OneDrive/Belgeler/WEB/MVC CORE/PatoCore/FirstCodee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tr7qt6wb6c

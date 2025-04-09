@@ -1,0 +1,78 @@
+﻿@model EntityLayer.Concrete.Address
+@{
+    ViewData["Title"] = "editAddress";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="row">
+        <div class="col-lg-8 mb-4 order-0 mx-auto">
+            <div class="card">
+                <div class="d-flex align-items-end row">
+                    <div class="col-sm-12">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Adres Sayfası 🎉</h5>
+                            <p class="mb-4">
+
+                            </p>
+                            <form asp-action="editAddress" asp-controller="AdminAddress" method="post">
+                                <div class="form-group">
+                                </div>
+                                <input asp-for="ID" hidden type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Adres Başlık</label>
+                                    <input asp-for="Title" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Title)
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Mail</label>
+                                    <input asp-for="Mail" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Mail)
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Phone</label>
+                                    <input asp-for="Phone" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Phone)
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="defaultFormControlInput" class="form-control-label">Map URL</label>
+                                    <input asp-for="MapURL" type="text" class="form-control" id="defaultFormControlInput" aridescribedby="defaultFormControlHelp">
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.MapURL)
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group mb-3">
+                                    <textarea hidden id="" hidden rows="10" cols="50" asp-for="Description" class="form-control" type="text" value=""></textarea>
+                                    <div class="text-danger text-sm ms-2">
+                                        @Html.ValidationMessageFor(x => x.Description)
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Bilgileri Kaydet</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+

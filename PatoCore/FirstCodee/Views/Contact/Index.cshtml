@@ -1,0 +1,153 @@
+﻿@model EntityLayer.Concrete.Contact
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/pato-master/images/bg-title-page-02.jpg);">
+	<h2 class="tit6 t-center">
+		İLETİŞİM
+	</h2>
+</section>
+
+
+<section class="section-contact bg1-pattern p-t-90 p-b-113">
+	<!-- Map -->
+	<div class="container">
+		<div class="map bo8 bo-rad-10 of-hidden">
+			<div class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.877125178956!2d37.320723!3d37.03657599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e1346c9629db%3A0x27dcb321ae5038aa!2sHouse%20of%20Krem%20cafe!5e0!3m2!1str!2str!4v1732357449500!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h3 class="tit7 t-center p-b-62 p-t-105">
+			BİZE BİR MESAJ BIRAKIN
+		</h3>
+	
+		<form class="wrap-form-reservation size22 m-l-r-auto" method="post" asp-action="Index" asp-controller="Contact">
+			<div class="row">
+				@if (TempData["SuccessMessage"] != null)
+				{
+					<div class="alert alert-success alert-dismissible fade show" role="alert">
+						@TempData["SuccessMessage"]
+						<button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+					</div>
+				}
+				@if (TempData["ErrorMessage"] != null)
+				{
+					<div class="alert alert-danger alert-dismissible fade show" role="alert">
+						@TempData["ErrorMessage"]
+						<button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+					</div>
+				}
+				<div class="col-md-6">
+					<!-- Name -->
+					<span class="txt9">
+						Ad Soyad
+					</span>
+					<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+						<input asp-for="Name" class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="Ad Soyad">
+						<div class="text-danger text-sm ms-2">
+							@Html.ValidationMessageFor(x => x.Name)
+						</div>
+					</div>
+				
+				</div>
+
+				<div class="col-md-6">
+					<!-- Email -->
+					<span class="txt9">
+						Mail
+					</span>
+
+					<div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
+						<input asp-for="Mail" class="bo-rad-10 sizefull txt10 p-l-20" type="text" placeholder="Mail Adresi">
+						<div class="text-danger text-sm ms-2">
+							@Html.ValidationMessageFor(x => x.Mail)
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="col-12">
+					<!-- Message -->
+					<span class="txt9">
+						Mesaj
+					</span>
+					<textarea asp-for="Message" class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="Mesajınız"></textarea>
+					<div class="text-danger text-sm ms-2">
+						@Html.ValidationMessageFor(x => x.Message)
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap-btn-booking flex-c-m m-t-13">
+				<!-- Button3 -->
+				<button type="submit" class="btn3 flex-c-m size36 txt11 trans-0-4">
+					Gönder
+				</button>
+			</div>
+		</form>
+		
+
+		<div class="row p-t-135">
+			<div class="col-sm-8 col-md-4 col-lg-4 m-l-r-auto p-t-30">
+				<div class="dis-flex m-l-23">
+					<div class="p-r-40 p-t-6">
+						<img src="~/pato-master/images/icons/map-icon.png" alt="IMG-ICON">
+					</div>
+
+					<div class="flex-col-l">
+						<span class="txt5 p-b-10">
+							Konum
+						</span>
+
+						<span class="txt23 size38">
+							@ViewBag.Adres
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-8 col-md-3 col-lg-4 m-l-r-auto p-t-30">
+				<div class="dis-flex m-l-23">
+					<div class="p-r-40 p-t-6">
+						<img src="~/pato-master/images/icons/phone-icon.png" alt="IMG-ICON">
+					</div>
+
+
+					<div class="flex-col-l">
+						<span class="txt5 p-b-10">
+							Telefon
+						</span>
+
+						<span class="txt23 size38">
+							@ViewBag.Phone
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-8 col-md-5 col-lg-4 m-l-r-auto p-t-30">
+				<div class="dis-flex m-l-23">
+					<div class="p-r-40 p-t-6">
+						<img src="~/pato-master/images/icons/clock-icon.png" alt="IMG-ICON">
+					</div>
+
+
+					<div class="flex-col-l">
+						<span class="txt5 p-b-10">
+							Çalışma Saatleri
+						</span>
+
+						<span class="txt23 size38">
+							09:30 AM – 11:00 PM <br />Every Day
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

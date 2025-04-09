@@ -1,0 +1,28 @@
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\bin\Debug\net8.0\EntityLayer.runtimeconfig.json
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Users\emreb\source\repos\FirstCodee\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\bin\Debug\net8.0\EntityLayer.runtimeconfig.json
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Users\emreb\OneDrive\Belgeler\WEB\MVC CORE\PatoCore\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll

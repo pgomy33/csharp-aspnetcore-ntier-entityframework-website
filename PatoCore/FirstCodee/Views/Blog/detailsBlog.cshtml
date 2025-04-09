@@ -1,0 +1,172 @@
+﻿@model EntityLayer.Concrete.ViewModels.BlogViewModel
+@{
+    ViewData["Title"] = "detailsBlog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/pato-master/images/bg-title-page-03.jpg);">
+    <h2 class="tit6 t-center">
+        Blog
+    </h2>
+</section>
+
+
+<!-- Content page -->
+<section>
+    <div class="bread-crumb bo5-b p-t-17 p-b-17">
+        <div class="container">
+            <a href="index.html" class="txt27">
+                Home
+            </a>
+
+            <span class="txt29 m-l-10 m-r-10">/</span>
+
+            <a href="blog.html" class="txt27">
+                Blog
+            </a>
+
+            <span class="txt29 m-l-10 m-r-10">/</span>
+
+            <span class="txt29">
+                Cooking recipe delicious
+            </span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-8 col-lg-9">
+                <div class="p-t-80 p-b-124 bo5-r p-r-50 h-full p-r-0-md bo-none-md">
+                    <!-- Block4 -->
+                    <div class="blo4 p-b-63">
+                        <!-- - -->
+                        <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                            <a href="blog-detail.html">
+                                <img src="~/img/@Model.Blog.BlogImage" alt="IMG-BLOG">
+                            </a>
+
+                            <div class="date-blo4 flex-col-c-m">
+                                <span class="txt30 m-b-4">
+                                    @Model.Blog.DateTimeWrite.ToString("dd")
+                                </span>
+
+                                <span class="txt31">
+                                    @Model.Blog.DateTimeWrite.ToString("MMM"), @Model.Blog.DateTimeWrite.ToString("yyyy")
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- - -->
+                        <div class="text-blo4 p-t-33">
+                            <h4 class="p-b-16">
+                                <a href="blog-detail.html" class="tit9">@Model.Blog.Title</a>
+                            </h4>
+
+                            <div class="txt32 flex-w p-b-24">
+                                <span>
+                                    by Admin
+                                    <span class="m-r-6 m-l-4">|</span>
+                                </span>
+
+                                <span>
+                                    @Model.Blog.DateTimeWrite.ToString("dd MMM,yyyy")
+                                    <span class="m-r-6 m-l-4">|</span>
+                                </span>
+
+                                <span>
+                                    @Model.Blog.BlogCategory.Title
+                                    <span class="m-r-6 m-l-4">|</span>
+                                </span>
+
+                                <span>
+                                    8 Comments
+                                </span>
+                            </div>
+
+                            <p>
+                                @Html.Raw(Model.Blog.Description)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Leave a comment -->
+                    <form class="leave-comment p-t-10" asp-action="detailsBlog" asp-controller="Blog" method="post">
+                        <h4 class="txt33 p-b-14">
+                            Bir Yorum Bırak
+                        </h4>
+
+                        <p>
+                            Lütfen ilgili alanları doldurun. *
+                        </p>
+
+                        <textarea asp-for="BlogTestimonial.Comment" class="bo-rad-10 size29 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-40" placeholder="Yorumunuz..."></textarea>
+
+                        <div class="size30 bo2 bo-rad-10 m-t-3 m-b-20">
+                            <input asp-for="BlogTestimonial.Name" class="bo-rad-10 sizefull txt10 p-l-20" type="text" placeholder="Ad Soyad *">
+                        </div>
+
+                        <div class="size30 bo2 bo-rad-10 m-t-3 m-b-20">
+                            <input asp-for="BlogTestimonial.Mail" class="bo-rad-10 sizefull txt10 p-l-20" type="text" placeholder="Email *">
+                        </div>
+
+                        <input asp-for="BlogTestimonial.BlogId" value="@Model.Blog.ID" class="bo-rad-10 sizefull txt10 p-l-20" type="text" hidden>
+
+                        <!-- Button3 -->
+                        <button type="submit" class="btn3 flex-c-m size31 txt11 trans-0-4">
+                            Gönder
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="sidebar2 p-t-80 p-b-80 p-l-20 p-l-0-md p-t-0-md">
+                   
+                  
+                    <!-- Categories -->
+                    <div class="categories">
+                        <h4 class="txt33 bo5-b p-b-35 p-t-58">
+                            Categories
+                        </h4>
+
+                        <ul>
+                            <li class="bo5-b p-t-8 p-b-8">
+                                <a href="#" class="txt27">
+                                    Cooking recipe
+                                </a>
+                            </li>
+
+                            <li class="bo5-b p-t-8 p-b-8">
+                                <a href="#" class="txt27">
+                                    Delicious foods
+                                </a>
+                            </li>
+
+                            <li class="bo5-b p-t-8 p-b-8">
+                                <a href="#" class="txt27">
+                                    Events Design
+                                </a>
+                            </li>
+
+                            <li class="bo5-b p-t-8 p-b-8">
+                                <a href="#" class="txt27">
+                                    Restaurant Place
+                                </a>
+                            </li>
+
+                            <li class="bo5-b p-t-8 p-b-8">
+                                <a href="#" class="txt27">
+                                    WordPress
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
